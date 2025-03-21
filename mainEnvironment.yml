@@ -1,0 +1,16 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - matplotlib
+  - numpy
+  - pytables
+  - pip
+  - pip:
+    - ortools
+    - pandas
+    - tqdm
+    - wget
+prefix: C:\ProgramData\Anaconda3
+
